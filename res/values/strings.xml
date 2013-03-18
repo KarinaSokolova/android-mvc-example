@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Welcome -->
+    <string name="app_name">Android MVC</string>
+    <string name="hello_world">You are welcome!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+
+</resources>

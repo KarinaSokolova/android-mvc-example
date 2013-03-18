@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <pn.eu.karinas.androidmvcsimpleexample.view.LoginView
+		android:id="@+id/login"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" 
+    	android:padding="20dp"
+    	android:focusable="true"
+    	android:focusableInTouchMode="true" >
+    
+	    <EditText
+	        android:id="@+id/email_login"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/prompt_email"
+	        android:inputType="textEmailAddress"/>
+	
+	    <EditText
+	        android:id="@+id/password"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/prompt_password"
+	        android:inputType="textPassword"/>
+	
+	    <Button
+	        android:id="@+id/sign_in_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginTop="16dp"
+	        android:paddingLeft="32dp"
+	        android:paddingRight="32dp"
+	        android:text="@string/action_sign_in_register" />
+    </pn.eu.karinas.androidmvcsimpleexample.view.LoginView>
